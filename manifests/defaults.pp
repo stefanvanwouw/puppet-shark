@@ -1,0 +1,3 @@
+class shark::defaults {
+
+}
