@@ -7,9 +7,9 @@ wget http://www.scala-lang.org/files/archive/scala-<%= @scala_version %>.tgz
 tar xvfz scala-<%= @scala_version %>.tgz
 
 # Install Spark.
-wget http://spark-project.org/download/spark-<%= @spark_version %>-incubating-bin-<%= @hadoop_version %>.tgz
-tar xvfz spark-*-bin-*.tgz
-mv spark-*-bin-*/ spark-<%= @spark_version %>
+#wget http://spark-project.org/download/spark-<%= @spark_version %>-incubating-bin-<%= @hadoop_version %>.tgz
+#tar xvfz spark-*-bin-*.tgz
+#mv spark-*-bin-*/ spark-<%= @spark_version %>
 
 # Install Shark.
 wget https://github.com/amplab/shark/releases/download/v<%= @shark_version %>/shark-<%= @shark_version %>-bin-<%= @hadoop_version %>.tgz 

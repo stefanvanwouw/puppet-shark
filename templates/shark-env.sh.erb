@@ -1,7 +1,8 @@
 export HADOOP_HOME=/usr/lib/hadoop
 export HIVE_HOME=/opt/shark-<%= @shark_version %>-bin-<%= @hadoop_version %>/hive-<%= @hive_compatible_version %>-shark-<%= @shark_version %>-bin
 export MASTER=spark://<%= @master %>:7077
-export SPARK_HOME=/opt/spark-<%= @spark_version %>
+export SPARK_HOME=/usr/lib/spark
 export SPARK_MEM=<%= @spark_worker_memory %>
+export SCALA_HOME=/opt/scala-2.9.3
+export JAVA_HOME=<%= @java_home %>
 
-source $SPARK_HOME/conf/spark-env.sh
