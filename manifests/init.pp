@@ -50,12 +50,14 @@ class shark (
         require => Exec['fetch_requirements'],
     }
 
-    file {"/opt/shark-${shark_version}-bin-${hadoop_version}/hive-${hive_compatible_version}-shark-${shark_version}-bin/conf/hive-site.xml":
-        source  => '/etc/hive/conf/hive-site.xml',
-        owner   => 'spark',
-        group   => 'spark',
-        mode    => '0644',
-        require => Exec['fetch_requirements'],
-    }
+    # The Hive MetaStore should be accessible from the node this module is installed. Not using hive-site.xml right now so a local temporary metastore db is created.
+    # This is sufficient for experiments, but needs to be changed for production.
+    #file {"/opt/shark-${shark_version}-bin-${hadoop_version}/hive-${hive_compatible_version}-shark-${shark_version}-bin/conf/hive-site.xml":
+    #    source  => '/etc/hive/conf/hive-site.xml',
+    #    owner   => 'spark',
+    #    group   => 'spark',
+    #    mode    => '0644',
+    #    require => Exec['fetch_requirements'],
+    #}
 
 }
