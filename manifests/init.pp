@@ -36,28 +36,37 @@ class shark (
     file {'/opt/shark-0.8.0-bin-cdh4':
         ensure  => directory,
         recurse => true,
-        owner   => 'spark',
-        group   => 'spark',
+        owner   => 'root',
+        group   => 'root',
         require => Exec['fetch_requirements'],
     }
     
 
     file {"/opt/shark-${shark_version}-bin-${hadoop_version}/shark-${shark_version}/conf/shark-env.sh":
         content => template('shark/shark-env.sh.erb'),
-        owner   => 'spark',
-        group   => 'spark',
+        owner   => 'root',
+        group   => 'root',
         mode    => '0744',
         require => Exec['fetch_requirements'],
     }
 
-    # The Hive MetaStore should be accessible from the node this module is installed. Not using hive-site.xml right now so a local temporary metastore db is created.
-    # This is sufficient for experiments, but needs to be changed for production.
-    #file {"/opt/shark-${shark_version}-bin-${hadoop_version}/hive-${hive_compatible_version}-shark-${shark_version}-bin/conf/hive-site.xml":
-    #    source  => '/etc/hive/conf/hive-site.xml',
-    #    owner   => 'spark',
-    #    group   => 'spark',
+    file {"/opt/shark-${shark_version}-bin-${hadoop_version}/hive-${hive_compatible_version}-shark-${shark_version}-bin/conf/hive-site.xml":
+        content  => template('shark/hive-site.xml.erb'),
+        owner   => 'root',
+        group   => 'root',
+        mode    => '0644',
+        require => Exec['fetch_requirements'],
+    }
+
+    # The shipped custom patched hive 0.9 does not have mysql drivers, copy them from our hive 0.12 version.
+    #file {"/opt/shark-${shark_version}-bin-${hadoop_version}/hive-${hive_compatible_version}-shark-${shark_version}-bin/lib/libmysql-java.jar":
+    #    source  => '/usr/lib/hive/lib/libmysql-java.jar',
+    #    owner   => 'root',
+    #    group   => 'root',
     #    mode    => '0644',
     #    require => Exec['fetch_requirements'],
     #}
+    
+
 
 }
