@@ -2,7 +2,8 @@ export SHARK_MASTER_MEM=1g
 
 SPARK_JAVA_OPTS+="-Dspark.kryoserializer.buffer.mb=10 " 
 SPARK_JAVA_OPTS+="-Dspark.storage.blockManagerSlaveTimeoutMs=300000 " 
-SPARK_JAVA_OPTS+="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9012 -Dcom.sun.management.jmxremote.local.only=true -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
+SPARK_JAVA_OPTS+="-XX:MaxPermSize=512m"
+#SPARK_JAVA_OPTS+="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9012 -Dcom.sun.management.jmxremote.local.only=true -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
 export SPARK_JAVA_OPTS
 
 export HIVE_HOME=/opt/shark-<%= @shark_version %>-bin-<%= @hadoop_version %>/hive-<%= @hive_compatible_version %>-shark-<%= @shark_version %>-bin
