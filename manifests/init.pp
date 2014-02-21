@@ -29,44 +29,43 @@ class shark (
     exec { 'fetch_requirements':
         command => '/opt/fetch_requirements.sh',
         user => 'root',
-        creates => "/opt/shark-${shark_version}-bin-${hadoop_version}",
+        creates => "/opt/scala-${scala_version}",
         require => File['/opt/fetch_requirements.sh'],
     }
 
-    file {'/opt/shark-0.8.0-bin-cdh4':
+    file {"/opt/shark-${shark_version}":
         ensure  => directory,
         recurse => true,
         owner   => 'root',
         group   => 'root',
-        require => Exec['fetch_requirements'],
+        mode    => '0744',
+        source  => "puppet:///modules/shark/shark-${shark_version}",
+    }
+
+    file {"/opt/hive-${hive_compatible_version}-shark-${shark_version}":
+        ensure  => directory,
+        recurse => true,
+        owner   => 'root',
+        group   => 'root',
+        mode    => '0744',
+        source  => "puppet:///modules/shark/hive-${hive_compatible_version}-shark-${shark_version}",
     }
     
 
-    file {"/opt/shark-${shark_version}-bin-${hadoop_version}/shark-${shark_version}/conf/shark-env.sh":
+    file {"/opt/shark-${shark_version}/conf/shark-env.sh":
         content => template('shark/shark-env.sh.erb'),
         owner   => 'root',
         group   => 'root',
         mode    => '0744',
-        require => Exec['fetch_requirements'],
+        require => File["/opt/shark-${shark_version}"],
     }
 
-    file {"/opt/shark-${shark_version}-bin-${hadoop_version}/hive-${hive_compatible_version}-shark-${shark_version}-bin/conf/hive-site.xml":
+    file {"/opt/hive-${hive_compatible_version}-shark-${shark_version}/conf/hive-site.xml":
         content  => template('shark/hive-site.xml.erb'),
         owner   => 'root',
         group   => 'root',
         mode    => '0644',
-        require => Exec['fetch_requirements'],
+        require => File["/opt/hive-${hive_compatible_version}-shark-${shark_version}"],
     }
-
-    # The shipped custom patched hive 0.9 does not have mysql drivers, copy them from our hive 0.12 version.
-    #file {"/opt/shark-${shark_version}-bin-${hadoop_version}/hive-${hive_compatible_version}-shark-${shark_version}-bin/lib/libmysql-java.jar":
-    #    source  => '/usr/lib/hive/lib/libmysql-java.jar',
-    #    owner   => 'root',
-    #    group   => 'root',
-    #    mode    => '0644',
-    #    require => Exec['fetch_requirements'],
-    #}
-    
-
 
 }
