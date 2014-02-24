@@ -66,6 +66,7 @@ export MASTER="spark://<%= @master %>:7077"
 
 # (Optional) Extra classpath
 #export SPARK_LIBRARY_PATH=""
+export SPARK_LIBRARY_PATH="/usr/lib/hadoop/lib/native:$SPARK_LIBRARY_PATH"
 
 # Java options
 # On EC2, change the local.dir to /mnt/tmp

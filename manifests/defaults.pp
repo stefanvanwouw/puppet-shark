@@ -6,5 +6,5 @@ class shark::defaults {
     $spark_version           = '0.9.0'
     $shark_version           = '0.9.0'
     $scala_version           = '2.10.3'
-    $java_home               = '/usr/lib/jvm/java-6-oracle'
+    $java_home               = '/usr/lib/jvm/java-7-oracle'
 }
