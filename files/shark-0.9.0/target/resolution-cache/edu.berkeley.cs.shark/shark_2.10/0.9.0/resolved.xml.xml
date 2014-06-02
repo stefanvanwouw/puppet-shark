@@ -4,7 +4,7 @@
 		module="shark_2.10"
 		revision="0.9.0"
 		status="integration"
-		publication="20140221164051"
+		publication="20140602124825"
 	>
 		<description>
 		shark
@@ -139,7 +139,7 @@
 		<dependency org="org.apache.spark" name="spark-core_2.10" rev="0.9.0-incubating" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-repl_2.10" rev="0.9.0-incubating" conf="compile->default(compile)"/>
 		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
-		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.0.0-cdh4.4.0" force="true" conf="compile->default(compile)">
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="1.0.4" force="true" conf="compile->default(compile)">
 			<exclude org="org.codehaus.jackson" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="org.jboss.netty" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="asm" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>

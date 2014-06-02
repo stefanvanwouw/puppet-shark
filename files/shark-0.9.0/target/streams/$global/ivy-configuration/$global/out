@@ -7,6 +7,6 @@
 [0m[[0mdebug[0m] [0m	Cloudera Repository: https://repository.cloudera.com/artifactory/cloudera-repos/[0m
 [0m[[0mdebug[0m] [0m	Sonatype Snapshots: https://oss.sonatype.org/content/repositories/snapshots/[0m
 [0m[[0mdebug[0m] [0m	Sonatype Staging: https://oss.sonatype.org/service/local/staging/deploy/maven2/[0m
-[0m[[0mdebug[0m] [0m	Local Maven: file:/root/.m2/repository[0m
+[0m[[0mdebug[0m] [0m	Local Maven: file:/Users/stefan/.m2/repository[0m
 [0m[[0mdebug[0m] [0m	public: http://repo1.maven.org/maven2/[0m
 [0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m

@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/opt/shark-0.9.0/project/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/}root...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: root#root;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -12,142 +12,32 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->org.ensime#ensime-sbt-cmd;0.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.ensime#ensime-sbt-cmd;0.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ensime#ensime-sbt-cmd;0.1.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.ensime/ensime-sbt-cmd/scala_2.9.2/sbt_0.12/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.ensime/ensime-sbt-cmd/scala_2.9.2/sbt_0.12/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.ensime#ensime-sbt-cmd;0.1.1[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/scala_2.9.2/sbt_0.12/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/scala_2.9.2/sbt_0.12/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.ensime#ensime-sbt-cmd;0.1.1[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.ensime/ensime-sbt-cmd/scala_2.9.2/sbt_0.12/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.ensime#ensime-sbt-cmd;0.1.1[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/scala_2.9.2/sbt_0.12/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/scala_2.9.2/sbt_0.12/0.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.ensime#ensime-sbt-cmd;0.1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for org.ensime#ensime-sbt-cmd;0.1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.pom (0.1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ensime#ensime-sbt-cmd;0.1.1!ensime-sbt-cmd.pom(pom.original) (1556ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.ensime/ensime-sbt-cmd/0.1.1/jars/ensime-sbt-cmd.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.ensime/ensime-sbt-cmd/0.1.1/jars/ensime-sbt-cmd.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/0.1.1/jars/ensime-sbt-cmd.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/0.1.1/jars/ensime-sbt-cmd.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.ensime/ensime-sbt-cmd/0.1.1/jars/ensime-sbt-cmd.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/0.1.1/jars/ensime-sbt-cmd.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.ensime/ensime-sbt-cmd/0.1.1/jars/ensime-sbt-cmd.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd/0.1.1/ensime-sbt-cmd-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd/0.1.1/ensime-sbt-cmd-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/ensime/ensime-sbt-cmd/0.1.1/ensime-sbt-cmd-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/ensime/ensime-sbt-cmd/0.1.1/ensime-sbt-cmd-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.ensime#ensime-sbt-cmd;0.1.1 in sonatype-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ensime#ensime-sbt-cmd;0.1.1[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.ensime#ensime-sbt-cmd;0.1.1[0m
+[0m[[0mdebug[0m] [0m	found org.ensime#ensime-sbt-cmd;0.1.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->org.ensime#ensime-sbt-cmd;0.1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->org.ensime#ensime-sbt-cmd;0.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->org.ensime#ensime-sbt-cmd;0.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.3.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle-sbt-plugin;0.3.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle-sbt-plugin;0.3.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.9.2/sbt_0.12/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.9.2/sbt_0.12/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.9.2/sbt_0.12/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.9.2/sbt_0.12/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle-sbt-plugin/scala_2.9.2/sbt_0.12/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.9.2/sbt_0.12/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.9.2/sbt_0.12/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for org.scalastyle#scalastyle-sbt-plugin;0.3.2[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.pom (0.3.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle-sbt-plugin;0.3.2!scalastyle-sbt-plugin.pom(pom.original) (1707ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/0.3.2/jars/scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/0.3.2/jars/scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/0.3.2/jars/scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/0.3.2/jars/scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle-sbt-plugin/0.3.2/jars/scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/0.3.2/jars/scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/0.3.2/jars/scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin/0.3.2/scalastyle-sbt-plugin-0.3.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin/0.3.2/scalastyle-sbt-plugin-0.3.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin/0.3.2/scalastyle-sbt-plugin-0.3.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin/0.3.2/scalastyle-sbt-plugin-0.3.2.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalastyle#scalastyle-sbt-plugin;0.3.2[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalastyle#scalastyle-sbt-plugin;0.3.2[0m
 [0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle-sbt-plugin;0.3.2 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.3.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.3.2->org.scalastyle#scalastyle_2.9.2;0.3.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.9.2;0.3.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.9.2;0.3.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle_2.9.2;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.9.2;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle_2.9.2/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalastyle#scalastyle_2.9.2;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.9.2;0.3.2[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for org.scalastyle#scalastyle_2.9.2;0.3.2[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.pom (0.3.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle_2.9.2;0.3.2!scalastyle_2.9.2.pom(pom.original) (2325ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/jars/scalastyle_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/jars/scalastyle_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/jars/scalastyle_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/jars/scalastyle_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle_2.9.2/0.3.2/jars/scalastyle_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/jars/scalastyle_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.9.2/0.3.2/jars/scalastyle_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.9.2;0.3.2[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalastyle#scalastyle_2.9.2;0.3.2[0m
 [0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.9.2;0.3.2 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.3.2->org.scalastyle#scalastyle_2.9.2;0.3.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.2;0.3.2->org.scalariform#scalariform_2.9.2;0.1.4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scalariform#scalariform_2.9.2;0.1.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalariform#scalariform_2.9.2;0.1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.9.2/0.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.9.2/0.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalariform#scalariform_2.9.2;0.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalariform#scalariform_2.9.2;0.1.4[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalariform/scalariform_2.9.2/0.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalariform#scalariform_2.9.2;0.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalariform#scalariform_2.9.2;0.1.4[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for org.scalariform#scalariform_2.9.2;0.1.4[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.pom (0.1.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalariform#scalariform_2.9.2;0.1.4!scalariform_2.9.2.pom(pom.original) (2136ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.9.2/0.1.4/jars/scalariform_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.9.2/0.1.4/jars/scalariform_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/jars/scalariform_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/jars/scalariform_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalariform/scalariform_2.9.2/0.1.4/jars/scalariform_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/jars/scalariform_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.9.2/0.1.4/jars/scalariform_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalariform#scalariform_2.9.2;0.1.4[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalariform#scalariform_2.9.2;0.1.4[0m
 [0m[[0mdebug[0m] [0m	found org.scalariform#scalariform_2.9.2;0.1.4 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.2;0.3.2->org.scalariform#scalariform_2.9.2;0.1.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.9.2;0.1.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -160,33 +50,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.2;0.3.2->com.github.scopt#scopt_2.9.2;2.1.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.github.scopt#scopt_2.9.2;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.scopt#scopt_2.9.2;2.1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.scopt/scopt_2.9.2/2.1.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.scopt/scopt_2.9.2/2.1.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.github.scopt#scopt_2.9.2;2.1.0[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.scopt#scopt_2.9.2;2.1.0[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.scopt/scopt_2.9.2/2.1.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.scopt#scopt_2.9.2;2.1.0[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.scopt#scopt_2.9.2;2.1.0[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for com.github.scopt#scopt_2.9.2;2.1.0[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.pom (2.1.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.scopt#scopt_2.9.2;2.1.0!scopt_2.9.2.pom(pom.original) (2135ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.scopt/scopt_2.9.2/2.1.0/jars/scopt_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.scopt/scopt_2.9.2/2.1.0/jars/scopt_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/jars/scopt_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/jars/scopt_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.scopt/scopt_2.9.2/2.1.0/jars/scopt_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/jars/scopt_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.scopt/scopt_2.9.2/2.1.0/jars/scopt_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.scopt#scopt_2.9.2;2.1.0[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.scopt#scopt_2.9.2;2.1.0[0m
 [0m[[0mdebug[0m] [0m	found com.github.scopt#scopt_2.9.2;2.1.0 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.2;0.3.2->com.github.scopt#scopt_2.9.2;2.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.2;2.1.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -207,58 +72,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml (2.2.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0!ivy.xml(ivy.original) (65ms)[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0->com.typesafe.sbteclipse#sbteclipse-core;2.2.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-core;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.2.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-core;2.2.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml (2.2.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.2.0!ivy.xml(ivy.original) (60ms)[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-core;2.2.0 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-core;2.2.0[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-core;2.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-core;2.2.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.9.2;6.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.9.2;6.0.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalaz/scalaz-core_2.9.2/6.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for org.scalaz#scalaz-core_2.9.2;6.0.4[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.pom (6.0.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-core_2.9.2;6.0.4!scalaz-core_2.9.2.pom(pom.original) (3910ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/jars/scalaz-core_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/jars/scalaz-core_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/jars/scalaz-core_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/jars/scalaz-core_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalaz/scalaz-core_2.9.2/6.0.4/jars/scalaz-core_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/jars/scalaz-core_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.9.2/6.0.4/jars/scalaz-core_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.9.2;6.0.4 in sonatype-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalaz#scalaz-core_2.9.2;6.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.9.2;6.0.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -269,114 +97,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.4.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.4.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/scala_2.9.2/sbt_0.12/1.4.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/scala_2.9.2/sbt_0.12/1.4.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.github.mpeltonen#sbt-idea;1.4.0[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/scala_2.9.2/sbt_0.12/1.4.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/scala_2.9.2/sbt_0.12/1.4.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.mpeltonen#sbt-idea;1.4.0[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.mpeltonen/sbt-idea/scala_2.9.2/sbt_0.12/1.4.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.mpeltonen#sbt-idea;1.4.0[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/scala_2.9.2/sbt_0.12/1.4.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/scala_2.9.2/sbt_0.12/1.4.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.mpeltonen#sbt-idea;1.4.0[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for com.github.mpeltonen#sbt-idea;1.4.0[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.pom (1.4.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.mpeltonen#sbt-idea;1.4.0!sbt-idea.pom(pom.original) (863ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/1.4.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/1.4.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.4.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.4.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.mpeltonen/sbt-idea/1.4.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.4.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.4.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea/1.4.0/sbt-idea-1.4.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea/1.4.0/sbt-idea-1.4.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.4.0/sbt-idea-1.4.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.4.0/sbt-idea-1.4.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.4.0 in sonatype-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.4.0[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.mpeltonen#sbt-idea;1.4.0[0m
+[0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.4.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.4.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.4.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-io/commons-io/2.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom (2.0.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.0.1!commons-io.pom(pom.original) (120ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;15 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;15 {}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;15[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;15[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;15[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;15[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-parent/15/commons-parent-15.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-parent/15/commons-parent-15.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for org.apache.commons#commons-parent;15[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;15[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom (15)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;15!commons-parent.pom(pom.original) (3383ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;7 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;7[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.apache#apache;7[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/15/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/15/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/15/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/15/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-parent/15/commons-parent-15.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-parent/15/commons-parent-15.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.0.1/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.0.1/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-io/commons-io/2.0.1/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.0.1/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.0.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.0.1[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: commons-io#commons-io;2.0.1[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.4.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.4.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.4.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
@@ -384,70 +115,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.virtual-void#sbt-dependency-graph;0.7.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.7.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.virtual-void/sbt-dependency-graph/scala_2.9.2/sbt_0.12/0.7.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.virtual-void/sbt-dependency-graph/scala_2.9.2/sbt_0.12/0.7.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for net.virtual-void#sbt-dependency-graph;0.7.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/scala_2.9.2/sbt_0.12/0.7.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/scala_2.9.2/sbt_0.12/0.7.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.virtual-void#sbt-dependency-graph;0.7.4[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.virtual-void/sbt-dependency-graph/scala_2.9.2/sbt_0.12/0.7.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for net.virtual-void#sbt-dependency-graph;0.7.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/scala_2.9.2/sbt_0.12/0.7.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/scala_2.9.2/sbt_0.12/0.7.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.virtual-void#sbt-dependency-graph;0.7.4[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for net.virtual-void#sbt-dependency-graph;0.7.4[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.pom (0.7.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.virtual-void#sbt-dependency-graph;0.7.4!sbt-dependency-graph.pom(pom.original) (1676ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.virtual-void/sbt-dependency-graph/0.7.4/jars/sbt-dependency-graph.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.virtual-void/sbt-dependency-graph/0.7.4/jars/sbt-dependency-graph.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/0.7.4/jars/sbt-dependency-graph.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/0.7.4/jars/sbt-dependency-graph.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.virtual-void/sbt-dependency-graph/0.7.4/jars/sbt-dependency-graph.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/0.7.4/jars/sbt-dependency-graph.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.virtual-void/sbt-dependency-graph/0.7.4/jars/sbt-dependency-graph.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph/0.7.4/sbt-dependency-graph-0.7.4.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph/0.7.4/sbt-dependency-graph-0.7.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph/0.7.4/sbt-dependency-graph-0.7.4.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph/0.7.4/sbt-dependency-graph-0.7.4.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.7.4[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: net.virtual-void#sbt-dependency-graph;0.7.4[0m
 [0m[[0mdebug[0m] [0m	found net.virtual-void#sbt-dependency-graph;0.7.4 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.9.2;0.0.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mdr#ascii-graphs_2.9.2;0.0.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.9.2;0.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.github.mdr#ascii-graphs_2.9.2;0.0.2[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.mdr#ascii-graphs_2.9.2;0.0.2[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.mdr/ascii-graphs_2.9.2/0.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.mdr#ascii-graphs_2.9.2;0.0.2[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.mdr#ascii-graphs_2.9.2;0.0.2[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for com.github.mdr#ascii-graphs_2.9.2;0.0.2[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.pom (0.0.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.mdr#ascii-graphs_2.9.2;0.0.2!ascii-graphs_2.9.2.pom(pom.original) (1749ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/jars/ascii-graphs_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/jars/ascii-graphs_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/jars/ascii-graphs_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/jars/ascii-graphs_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.mdr/ascii-graphs_2.9.2/0.0.2/jars/ascii-graphs_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/jars/ascii-graphs_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.github.mdr/ascii-graphs_2.9.2/0.0.2/jars/ascii-graphs_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.jar[0m
-[0m[[0mdebug[0m] [0m	found com.github.mdr#ascii-graphs_2.9.2;0.0.2 in sonatype-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mdr#ascii-graphs_2.9.2;0.0.2[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.mdr#ascii-graphs_2.9.2;0.0.2[0m
+[0m[[0mdebug[0m] [0m	found com.github.mdr#ascii-graphs_2.9.2;0.0.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.9.2;0.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.9.2;0.0.2->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.9.2;0.0.2->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
@@ -461,63 +139,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.9.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.9.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.9.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.eed3si9n#sbt-assembly;0.9.2[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.eed3si9n#sbt-assembly;0.9.2[0m
-[0m[[0mdebug[0m] [0m		=> http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml (0.9.2)[0m
-[0m[[0mdebug[0m] [0mdownloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.9.2!ivy.xml(ivy.original) (448ms)[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.9.2[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.eed3si9n#sbt-assembly;0.9.2[0m
 [0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.9.2 in sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies root#root;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-pgp;0.8.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-pgp;0.8.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.sbt#sbt-pgp;0.8.1[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.typesafe.sbt#sbt-pgp;0.8.1[0m
-[0m[[0mdebug[0m] [0m		=> http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml (0.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-pgp;0.8.1!ivy.xml(ivy.original) (453ms)[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-pgp;0.8.1[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbt#sbt-pgp;0.8.1[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-pgp;0.8.1 in sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.1->com.jsuereth#gpg-library_2.9.2;0.8.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.jsuereth#gpg-library_2.9.2;0.8.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.jsuereth#gpg-library_2.9.2;0.8.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.jsuereth#gpg-library_2.9.2;0.8.1[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.jsuereth#gpg-library_2.9.2;0.8.1[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.jsuereth/gpg-library_2.9.2/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.jsuereth#gpg-library_2.9.2;0.8.1[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.jsuereth#gpg-library_2.9.2;0.8.1[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for com.jsuereth#gpg-library_2.9.2;0.8.1[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.pom (0.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.jsuereth#gpg-library_2.9.2;0.8.1!gpg-library_2.9.2.pom(pom.original) (2039ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/jars/gpg-library_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/jars/gpg-library_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/jars/gpg-library_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/jars/gpg-library_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.jsuereth/gpg-library_2.9.2/0.8.1/jars/gpg-library_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/jars/gpg-library_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.jsuereth/gpg-library_2.9.2/0.8.1/jars/gpg-library_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.jsuereth#gpg-library_2.9.2;0.8.1[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.jsuereth#gpg-library_2.9.2;0.8.1[0m
 [0m[[0mdebug[0m] [0m	found com.jsuereth#gpg-library_2.9.2;0.8.1 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.1->com.jsuereth#gpg-library_2.9.2;0.8.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.1->com.jsuereth#gpg-library_2.9.2;0.8.1 [compile->compile][0m
@@ -526,65 +161,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#gpg-library_2.9.2;0.8.1->org.bouncycastle#bcpg-jdk15on;1.49 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.bouncycastle#bcpg-jdk15on;1.49 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.bouncycastle#bcpg-jdk15on;1.49 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcpg-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcpg-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.bouncycastle#bcpg-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.bouncycastle#bcpg-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.bouncycastle/bcpg-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.bouncycastle#bcpg-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.bouncycastle#bcpg-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for org.bouncycastle#bcpg-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.pom (1.49)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.bouncycastle#bcpg-jdk15on;1.49!bcpg-jdk15on.pom(pom.original) (1841ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcpg-jdk15on/1.49/jars/bcpg-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcpg-jdk15on/1.49/jars/bcpg-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/jars/bcpg-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/jars/bcpg-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.bouncycastle/bcpg-jdk15on/1.49/jars/bcpg-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/jars/bcpg-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcpg-jdk15on/1.49/jars/bcpg-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.bouncycastle#bcpg-jdk15on;1.49[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.bouncycastle#bcpg-jdk15on;1.49[0m
 [0m[[0mdebug[0m] [0m	found org.bouncycastle#bcpg-jdk15on;1.49 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#gpg-library_2.9.2;0.8.1->org.bouncycastle#bcpg-jdk15on;1.49 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.49->org.bouncycastle#bcprov-jdk15on;1.49 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.bouncycastle#bcprov-jdk15on;1.49 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.bouncycastle#bcprov-jdk15on;1.49 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcprov-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcprov-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.bouncycastle#bcprov-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.bouncycastle#bcprov-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.bouncycastle/bcprov-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.bouncycastle#bcprov-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.bouncycastle#bcprov-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for org.bouncycastle#bcprov-jdk15on;1.49[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.pom (1.49)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.bouncycastle#bcprov-jdk15on;1.49!bcprov-jdk15on.pom(pom.original) (2066ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcprov-jdk15on/1.49/jars/bcprov-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcprov-jdk15on/1.49/jars/bcprov-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/jars/bcprov-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/jars/bcprov-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.bouncycastle/bcprov-jdk15on/1.49/jars/bcprov-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/jars/bcprov-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.49/jars/bcprov-jdk15on.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.bouncycastle#bcprov-jdk15on;1.49[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.bouncycastle#bcprov-jdk15on;1.49[0m
 [0m[[0mdebug[0m] [0m	found org.bouncycastle#bcprov-jdk15on;1.49 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.49->org.bouncycastle#bcprov-jdk15on;1.49 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#gpg-library_2.9.2;0.8.1->org.bouncycastle#bcpg-jdk15on;1.49 [compile->runtime(*)][0m
@@ -594,33 +179,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#gpg-library_2.9.2;0.8.1->net.databinder#dispatch-http_2.9.1;0.8.10 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving net.databinder#dispatch-http_2.9.1;0.8.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-http_2.9.1;0.8.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for net.databinder#dispatch-http_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-http_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-http_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for net.databinder#dispatch-http_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-http_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for net.databinder#dispatch-http_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.pom (0.8.10)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-http_2.9.1;0.8.10!dispatch-http_2.9.1.pom(pom.original) (1992ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.1/0.8.10/jars/dispatch-http_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-http_2.9.1/0.8.10/jars/dispatch-http_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/jars/dispatch-http_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/jars/dispatch-http_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-http_2.9.1/0.8.10/jars/dispatch-http_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/jars/dispatch-http_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-http_2.9.1/0.8.10/jars/dispatch-http_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.databinder#dispatch-http_2.9.1;0.8.10[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: net.databinder#dispatch-http_2.9.1;0.8.10[0m
 [0m[[0mdebug[0m] [0m	found net.databinder#dispatch-http_2.9.1;0.8.10 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#gpg-library_2.9.2;0.8.1->net.databinder#dispatch-http_2.9.1;0.8.10 [compile->compile(*)][0m
@@ -629,33 +189,8 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving net.databinder#dispatch-core_2.9.1;0.8.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-core_2.9.1;0.8.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for net.databinder#dispatch-core_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-core_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-core_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for net.databinder#dispatch-core_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-core_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for net.databinder#dispatch-core_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.pom (0.8.10)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-core_2.9.1;0.8.10!dispatch-core_2.9.1.pom(pom.original) (2312ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.1/0.8.10/jars/dispatch-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-core_2.9.1/0.8.10/jars/dispatch-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/jars/dispatch-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/jars/dispatch-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-core_2.9.1/0.8.10/jars/dispatch-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/jars/dispatch-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-core_2.9.1/0.8.10/jars/dispatch-core_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.databinder#dispatch-core_2.9.1;0.8.10[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: net.databinder#dispatch-core_2.9.1;0.8.10[0m
 [0m[[0mdebug[0m] [0m	found net.databinder#dispatch-core_2.9.1;0.8.10 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.1;0.8.10->net.databinder#dispatch-core_2.9.1;0.8.10 [compile->compile(*)][0m
@@ -679,108 +214,8 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpclient;4.1.3[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom (4.1.3)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1.3!httpclient.pom(pom.original) (433ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcomponents-client;4.1.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.1.3 {}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpcomponents-client;4.1.3[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom (4.1.3)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.1.3!httpcomponents-client.pom(pom.original) (1204ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#project;5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;5 {}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/project/5/project-5.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/project/5/project-5.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom (5)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#project;5!project.pom(pom.original) (110ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/5/jars/project.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/5/jars/project.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/jars/project.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/jars/project.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/project/5/jars/project.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/jars/project.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/5/jars/project.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/project/5/project-5.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/project/5/project-5.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1.3/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.1.3/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.3/httpcomponents-client-4.1.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.1.3/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.1.3/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1.3/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.1.3/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.1.3[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.apache.httpcomponents#httpclient;4.1.3[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.1.3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.1;0.8.10->org.apache.httpcomponents#httpclient;4.1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1.3->org.apache.httpcomponents#httpcore;4.1.4 [compile->master(*)][0m
@@ -796,77 +231,8 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.1.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpcore;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcore;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcore;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcore;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for org.apache.httpcomponents#httpcore;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpcore;4.1.4[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom (4.1.4)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1.4!httpcore.pom(pom.original) (105ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcomponents-core;4.1.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-core;4.1.4 {}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.1.4[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpcomponents-core;4.1.4[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom (4.1.4)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-core;4.1.4!httpcomponents-core.pom(pom.original) (1984ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#project;5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;5 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.apache.httpcomponents#project;5[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1.4/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.1.4/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.4/httpcomponents-core-4.1.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.1.4/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.1.4/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1.4/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.1.4/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.1.4[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.apache.httpcomponents#httpcore;4.1.4[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.1.4 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1.3->org.apache.httpcomponents#httpcore;4.1.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1.3->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
@@ -907,33 +273,8 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving net.databinder#dispatch-futures_2.9.1;0.8.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-futures_2.9.1;0.8.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for net.databinder#dispatch-futures_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-futures_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-futures_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for net.databinder#dispatch-futures_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for net.databinder#dispatch-futures_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: found md file for net.databinder#dispatch-futures_2.9.1;0.8.10[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.pom (0.8.10)[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.pom ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-futures_2.9.1;0.8.10!dispatch-futures_2.9.1.pom(pom.original) (6656ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/jars/dispatch-futures_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/jars/dispatch-futures_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/jars/dispatch-futures_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/jars/dispatch-futures_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-futures_2.9.1/0.8.10/jars/dispatch-futures_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/jars/dispatch-futures_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/net.databinder/dispatch-futures_2.9.1/0.8.10/jars/dispatch-futures_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.jar[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.databinder#dispatch-futures_2.9.1;0.8.10[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: net.databinder#dispatch-futures_2.9.1;0.8.10[0m
 [0m[[0mdebug[0m] [0m	found net.databinder#dispatch-futures_2.9.1;0.8.10 in sonatype-releases[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.1;0.8.10->net.databinder#dispatch-futures_2.9.1;0.8.10 [compile->compile(*)][0m
@@ -3097,140 +2438,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for root#root;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for root#root;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /opt/shark-0.9.0/project/target/resolution-cache/root/root/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/root/root/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/ensime/ensime-sbt-cmd_2.9.2_0.12/0.1.1/ensime-sbt-cmd-0.1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ensime#ensime-sbt-cmd;0.1.1!ensime-sbt-cmd.jar (4711ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle-sbt-plugin_2.9.2_0.12/0.3.2/scalastyle-sbt-plugin-0.3.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle-sbt-plugin;0.3.2!scalastyle-sbt-plugin.jar (5881ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-plugin.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-plugin.jar ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-plugin.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-plugin.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0!sbteclipse-plugin.jar (67ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/github/mpeltonen/sbt-idea_2.9.2_0.12/1.4.0/sbt-idea-1.4.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.mpeltonen#sbt-idea;1.4.0!sbt-idea.jar (2299ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.virtual-void#sbt-dependency-graph;0.7.4!sbt-dependency-graph.jar (4489ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/jars/sbt-assembly.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/jars/sbt-assembly.jar ...[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/jars/sbt-assembly.jar[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/jars/sbt-assembly.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.9.2/jars/sbt-assembly.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.9.2!sbt-assembly.jar (857ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/jars/sbt-pgp.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/jars/sbt-pgp.jar ...[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/jars/sbt-pgp.jar[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/jars/sbt-pgp.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-pgp/scala_2.9.2/sbt_0.12/0.8.1/jars/sbt-pgp.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-pgp;0.8.1!sbt-pgp.jar (696ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.9.2/0.3.2/scalastyle_2.9.2-0.3.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle_2.9.2;0.3.2!scalastyle_2.9.2.jar (2528ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalariform/scalariform_2.9.2/0.1.4/scalariform_2.9.2-0.1.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalariform#scalariform_2.9.2;0.1.4!scalariform_2.9.2.jar (5007ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/github/scopt/scopt_2.9.2/2.1.0/scopt_2.9.2-2.1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.scopt#scopt_2.9.2;2.1.0!scopt_2.9.2.jar (3044ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-core.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-core.jar ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-core.jar[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-core.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.9.2/sbt_0.12/2.2.0/jars/sbteclipse-core.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.2.0!sbteclipse-core.jar (91ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/scalaz/scalaz-core_2.9.2/6.0.4/scalaz-core_2.9.2-6.0.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-core_2.9.2;6.0.4!scalaz-core_2.9.2.jar (7866ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.0.1!commons-io.jar (104ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.mdr#ascii-graphs_2.9.2;0.0.2!ascii-graphs_2.9.2.jar (1905ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/com/jsuereth/gpg-library_2.9.2/0.8.1/gpg-library_2.9.2-0.8.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.jsuereth#gpg-library_2.9.2;0.8.1!gpg-library_2.9.2.jar (3440ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.1/0.8.10/dispatch-http_2.9.1-0.8.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-http_2.9.1;0.8.10!dispatch-http_2.9.1.jar (1890ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpg-jdk15on/1.49/bcpg-jdk15on-1.49.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.bouncycastle#bcpg-jdk15on;1.49!bcpg-jdk15on.jar (2863ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.bouncycastle#bcprov-jdk15on;1.49!bcprov-jdk15on.jar (5251ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.1/0.8.10/dispatch-core_2.9.1-0.8.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-core_2.9.1;0.8.10!dispatch-core_2.9.1.jar (8444ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.jar[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: downloading https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.1/0.8.10/dispatch-futures_2.9.1-0.8.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-futures_2.9.1;0.8.10!dispatch-futures_2.9.1.jar (1365ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1.3!httpclient.jar (2215ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1.4!httpcore.jar (90ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ensime#ensime-sbt-cmd;0.1.1!ensime-sbt-cmd.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle-sbt-plugin;0.3.2!scalastyle-sbt-plugin.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0!sbteclipse-plugin.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.4.0!sbt-idea.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.7.4!sbt-dependency-graph.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.9.2!sbt-assembly.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbt#sbt-pgp;0.8.1!sbt-pgp.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle_2.9.2;0.3.2!scalastyle_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalariform#scalariform_2.9.2;0.1.4!scalariform_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.scopt#scopt_2.9.2;2.1.0!scopt_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.2.0!sbteclipse-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.9.2;6.0.4!scalaz-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.9.2;0.0.2!ascii-graphs_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jsuereth#gpg-library_2.9.2;0.8.1!gpg-library_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.databinder#dispatch-http_2.9.1;0.8.10!dispatch-http_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.bouncycastle#bcpg-jdk15on;1.49!bcpg-jdk15on.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.49!bcprov-jdk15on.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.databinder#dispatch-core_2.9.1;0.8.10!dispatch-core_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.databinder#dispatch-futures_2.9.1;0.8.10!dispatch-futures_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.1.3!httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.1.4!httpcore.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.12.3!sbt.jar[0m
@@ -3274,18 +2505,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.3!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.3!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 109542ms :: artifacts dl 65152ms[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT compile produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT runtime produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT test produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT provided produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT optional produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT compile-internal produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT runtime-internal produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT test-internal produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT plugin produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT sources produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT docs produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT pom produced in /opt/shark-0.9.0/project/target/resolution-cache/reports/root-root-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (109542ms resolve - 65152ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1564ms :: artifacts dl 131ms[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT compile produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT runtime produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT test produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT provided produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT optional produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT compile-internal produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT runtime-internal produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT test-internal produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT plugin produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT sources produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT docs produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for root#root;0.1-SNAPSHOT pom produced in /Users/stefan/Documents/puppet/modules/shark/files/shark-0.9.0/project/target/resolution-cache/reports/root-root-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1564ms resolve - 131ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
